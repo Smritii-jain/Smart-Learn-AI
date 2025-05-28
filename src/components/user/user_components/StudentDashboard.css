@@ -1,0 +1,26 @@
+/* Add this CSS to your StudentDashboard.css or a similar CSS file */
+.left-swipe-animation {
+    animation: leftSwipe 0.5s ease-in-out;
+  }
+  
+  @keyframes leftSwipe {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .right-swipe-animation {
+    animation: rightSwipe 0.5s ease-in-out;
+  }
+  
+  @keyframes rightSwipe {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
